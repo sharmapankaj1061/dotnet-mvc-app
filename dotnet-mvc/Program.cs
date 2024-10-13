@@ -24,6 +24,4 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// this is a dummy commit to see if the deploymnet gets triggred.
-
 app.Run();
